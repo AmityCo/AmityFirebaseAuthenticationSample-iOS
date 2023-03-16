@@ -1,0 +1,607 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		61C2891F29C2DB8C003DCF0C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61C2891E29C2DB8C003DCF0C /* AppDelegate.swift */; };
+		61C2892129C2DB8C003DCF0C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61C2892029C2DB8C003DCF0C /* SceneDelegate.swift */; };
+		61C2892329C2DB8C003DCF0C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61C2892229C2DB8C003DCF0C /* ViewController.swift */; };
+		61C2892629C2DB8C003DCF0C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 61C2892429C2DB8C003DCF0C /* Main.storyboard */; };
+		61C2892829C2DB91003DCF0C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 61C2892729C2DB91003DCF0C /* Assets.xcassets */; };
+		61C2892B29C2DB91003DCF0C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 61C2892929C2DB91003DCF0C /* LaunchScreen.storyboard */; };
+		61C2893629C2DB92003DCF0C /* google_identity_sign_inTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61C2893529C2DB92003DCF0C /* google_identity_sign_inTests.swift */; };
+		61C2894029C2DB92003DCF0C /* google_identity_sign_inUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61C2893F29C2DB92003DCF0C /* google_identity_sign_inUITests.swift */; };
+		61C2894229C2DB92003DCF0C /* google_identity_sign_inUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61C2894129C2DB92003DCF0C /* google_identity_sign_inUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		61C2893229C2DB92003DCF0C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 61C2891329C2DB8B003DCF0C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 61C2891A29C2DB8C003DCF0C;
+			remoteInfo = "google-identity-sign-in";
+		};
+		61C2893C29C2DB92003DCF0C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 61C2891329C2DB8B003DCF0C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 61C2891A29C2DB8C003DCF0C;
+			remoteInfo = "google-identity-sign-in";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		61C2891B29C2DB8C003DCF0C /* google-identity-sign-in.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "google-identity-sign-in.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		61C2891E29C2DB8C003DCF0C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		61C2892029C2DB8C003DCF0C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		61C2892229C2DB8C003DCF0C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		61C2892529C2DB8C003DCF0C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		61C2892729C2DB91003DCF0C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		61C2892A29C2DB91003DCF0C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		61C2892C29C2DB91003DCF0C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		61C2893129C2DB92003DCF0C /* google-identity-sign-inTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "google-identity-sign-inTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		61C2893529C2DB92003DCF0C /* google_identity_sign_inTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = google_identity_sign_inTests.swift; sourceTree = "<group>"; };
+		61C2893B29C2DB92003DCF0C /* google-identity-sign-inUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "google-identity-sign-inUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		61C2893F29C2DB92003DCF0C /* google_identity_sign_inUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = google_identity_sign_inUITests.swift; sourceTree = "<group>"; };
+		61C2894129C2DB92003DCF0C /* google_identity_sign_inUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = google_identity_sign_inUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		61C2891829C2DB8C003DCF0C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		61C2892E29C2DB92003DCF0C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		61C2893829C2DB92003DCF0C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		61C2891229C2DB8B003DCF0C = {
+			isa = PBXGroup;
+			children = (
+				61C2891D29C2DB8C003DCF0C /* google-identity-sign-in */,
+				61C2893429C2DB92003DCF0C /* google-identity-sign-inTests */,
+				61C2893E29C2DB92003DCF0C /* google-identity-sign-inUITests */,
+				61C2891C29C2DB8C003DCF0C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		61C2891C29C2DB8C003DCF0C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				61C2891B29C2DB8C003DCF0C /* google-identity-sign-in.app */,
+				61C2893129C2DB92003DCF0C /* google-identity-sign-inTests.xctest */,
+				61C2893B29C2DB92003DCF0C /* google-identity-sign-inUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		61C2891D29C2DB8C003DCF0C /* google-identity-sign-in */ = {
+			isa = PBXGroup;
+			children = (
+				61C2891E29C2DB8C003DCF0C /* AppDelegate.swift */,
+				61C2892029C2DB8C003DCF0C /* SceneDelegate.swift */,
+				61C2892229C2DB8C003DCF0C /* ViewController.swift */,
+				61C2892429C2DB8C003DCF0C /* Main.storyboard */,
+				61C2892729C2DB91003DCF0C /* Assets.xcassets */,
+				61C2892929C2DB91003DCF0C /* LaunchScreen.storyboard */,
+				61C2892C29C2DB91003DCF0C /* Info.plist */,
+			);
+			path = "google-identity-sign-in";
+			sourceTree = "<group>";
+		};
+		61C2893429C2DB92003DCF0C /* google-identity-sign-inTests */ = {
+			isa = PBXGroup;
+			children = (
+				61C2893529C2DB92003DCF0C /* google_identity_sign_inTests.swift */,
+			);
+			path = "google-identity-sign-inTests";
+			sourceTree = "<group>";
+		};
+		61C2893E29C2DB92003DCF0C /* google-identity-sign-inUITests */ = {
+			isa = PBXGroup;
+			children = (
+				61C2893F29C2DB92003DCF0C /* google_identity_sign_inUITests.swift */,
+				61C2894129C2DB92003DCF0C /* google_identity_sign_inUITestsLaunchTests.swift */,
+			);
+			path = "google-identity-sign-inUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		61C2891A29C2DB8C003DCF0C /* google-identity-sign-in */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 61C2894529C2DB92003DCF0C /* Build configuration list for PBXNativeTarget "google-identity-sign-in" */;
+			buildPhases = (
+				61C2891729C2DB8C003DCF0C /* Sources */,
+				61C2891829C2DB8C003DCF0C /* Frameworks */,
+				61C2891929C2DB8C003DCF0C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "google-identity-sign-in";
+			productName = "google-identity-sign-in";
+			productReference = 61C2891B29C2DB8C003DCF0C /* google-identity-sign-in.app */;
+			productType = "com.apple.product-type.application";
+		};
+		61C2893029C2DB92003DCF0C /* google-identity-sign-inTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 61C2894829C2DB92003DCF0C /* Build configuration list for PBXNativeTarget "google-identity-sign-inTests" */;
+			buildPhases = (
+				61C2892D29C2DB92003DCF0C /* Sources */,
+				61C2892E29C2DB92003DCF0C /* Frameworks */,
+				61C2892F29C2DB92003DCF0C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				61C2893329C2DB92003DCF0C /* PBXTargetDependency */,
+			);
+			name = "google-identity-sign-inTests";
+			productName = "google-identity-sign-inTests";
+			productReference = 61C2893129C2DB92003DCF0C /* google-identity-sign-inTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		61C2893A29C2DB92003DCF0C /* google-identity-sign-inUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 61C2894B29C2DB92003DCF0C /* Build configuration list for PBXNativeTarget "google-identity-sign-inUITests" */;
+			buildPhases = (
+				61C2893729C2DB92003DCF0C /* Sources */,
+				61C2893829C2DB92003DCF0C /* Frameworks */,
+				61C2893929C2DB92003DCF0C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				61C2893D29C2DB92003DCF0C /* PBXTargetDependency */,
+			);
+			name = "google-identity-sign-inUITests";
+			productName = "google-identity-sign-inUITests";
+			productReference = 61C2893B29C2DB92003DCF0C /* google-identity-sign-inUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		61C2891329C2DB8B003DCF0C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					61C2891A29C2DB8C003DCF0C = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					61C2893029C2DB92003DCF0C = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 61C2891A29C2DB8C003DCF0C;
+					};
+					61C2893A29C2DB92003DCF0C = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 61C2891A29C2DB8C003DCF0C;
+					};
+				};
+			};
+			buildConfigurationList = 61C2891629C2DB8B003DCF0C /* Build configuration list for PBXProject "google-identity-sign-in" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 61C2891229C2DB8B003DCF0C;
+			productRefGroup = 61C2891C29C2DB8C003DCF0C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				61C2891A29C2DB8C003DCF0C /* google-identity-sign-in */,
+				61C2893029C2DB92003DCF0C /* google-identity-sign-inTests */,
+				61C2893A29C2DB92003DCF0C /* google-identity-sign-inUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		61C2891929C2DB8C003DCF0C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				61C2892B29C2DB91003DCF0C /* LaunchScreen.storyboard in Resources */,
+				61C2892829C2DB91003DCF0C /* Assets.xcassets in Resources */,
+				61C2892629C2DB8C003DCF0C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		61C2892F29C2DB92003DCF0C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		61C2893929C2DB92003DCF0C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		61C2891729C2DB8C003DCF0C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				61C2892329C2DB8C003DCF0C /* ViewController.swift in Sources */,
+				61C2891F29C2DB8C003DCF0C /* AppDelegate.swift in Sources */,
+				61C2892129C2DB8C003DCF0C /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		61C2892D29C2DB92003DCF0C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				61C2893629C2DB92003DCF0C /* google_identity_sign_inTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		61C2893729C2DB92003DCF0C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				61C2894029C2DB92003DCF0C /* google_identity_sign_inUITests.swift in Sources */,
+				61C2894229C2DB92003DCF0C /* google_identity_sign_inUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		61C2893329C2DB92003DCF0C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 61C2891A29C2DB8C003DCF0C /* google-identity-sign-in */;
+			targetProxy = 61C2893229C2DB92003DCF0C /* PBXContainerItemProxy */;
+		};
+		61C2893D29C2DB92003DCF0C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 61C2891A29C2DB8C003DCF0C /* google-identity-sign-in */;
+			targetProxy = 61C2893C29C2DB92003DCF0C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		61C2892429C2DB8C003DCF0C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				61C2892529C2DB8C003DCF0C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		61C2892929C2DB91003DCF0C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				61C2892A29C2DB91003DCF0C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		61C2894329C2DB92003DCF0C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		61C2894429C2DB92003DCF0C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		61C2894629C2DB92003DCF0C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 37Z583JR6K;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "google-identity-sign-in/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.amity.ASC.google-identity-sign-in";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		61C2894729C2DB92003DCF0C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 37Z583JR6K;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "google-identity-sign-in/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.amity.ASC.google-identity-sign-in";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		61C2894929C2DB92003DCF0C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 37Z583JR6K;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.amity.ASC.google-identity-sign-inTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/google-identity-sign-in.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/google-identity-sign-in";
+			};
+			name = Debug;
+		};
+		61C2894A29C2DB92003DCF0C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 37Z583JR6K;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.amity.ASC.google-identity-sign-inTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/google-identity-sign-in.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/google-identity-sign-in";
+			};
+			name = Release;
+		};
+		61C2894C29C2DB92003DCF0C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 37Z583JR6K;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.amity.ASC.google-identity-sign-inUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "google-identity-sign-in";
+			};
+			name = Debug;
+		};
+		61C2894D29C2DB92003DCF0C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 37Z583JR6K;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.amity.ASC.google-identity-sign-inUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "google-identity-sign-in";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		61C2891629C2DB8B003DCF0C /* Build configuration list for PBXProject "google-identity-sign-in" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				61C2894329C2DB92003DCF0C /* Debug */,
+				61C2894429C2DB92003DCF0C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		61C2894529C2DB92003DCF0C /* Build configuration list for PBXNativeTarget "google-identity-sign-in" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				61C2894629C2DB92003DCF0C /* Debug */,
+				61C2894729C2DB92003DCF0C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		61C2894829C2DB92003DCF0C /* Build configuration list for PBXNativeTarget "google-identity-sign-inTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				61C2894929C2DB92003DCF0C /* Debug */,
+				61C2894A29C2DB92003DCF0C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		61C2894B29C2DB92003DCF0C /* Build configuration list for PBXNativeTarget "google-identity-sign-inUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				61C2894C29C2DB92003DCF0C /* Debug */,
+				61C2894D29C2DB92003DCF0C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 61C2891329C2DB8B003DCF0C /* Project object */;
+}
