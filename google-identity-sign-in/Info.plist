@@ -21,5 +21,18 @@
 			</array>
 		</dict>
 	</dict>
+    <key>CFBundleURLTypes</key>
+    <array>
+      <dict>
+      <key>CFBundleIdentifier</key>
+      <string></string>
+      <key>CFBundleTypeRole</key>
+      <string>Editor</string>
+        <key>CFBundleURLSchemes</key>
+        <array>
+            <string>YOUR_DOT_REVERSED_IOS_CLIENT_ID</string>
+        </array>
+      </dict>
+    </array>
 </dict>
 </plist>
